@@ -1,0 +1,78 @@
+'Are you self-employed?', -- self_empl_flag 
+'How many employees does your company or organization have?', -- comp_no_empl
+'Is your employer primarily a tech company/organization?', -- tech_comp_flag
+'Is your primary role within your company related to tech/IT?', -- tech_role_flag
+'Does your employer provide mental health benefits as part of healthcare coverage?', -- mh_coverage_flag
+'Do you know the options for mental health care available under your employer-provided coverage?', -- mh_coverage_awareness_flag
+'Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other 
+official communication)?',-- mh_employer_discussion
+'Does your employer offer resources to learn more about mental health concerns and options for seeking help?', -- mh_resources_provided
+'Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?', -- mh_anonimity_flag
+'If a mental health issue prompted you to request a medical leave from work, asking for that leave would be:', -- mh_medical_leave
+'Do you think that discussing a mental health disorder with your employer would have negative consequences?', -- mh_discussion_neg_impact
+'Do you think that discussing a physical health issue with your employer would have negative consequences?', -- ph_discussion_neg_impact
+'Would you feel comfortable discussing a mental health disorder with your coworkers?', -- mh_discussion_cowork
+'Would you feel comfortable discussing a mental health disorder with your direct supervisor(s)?', -- mh_discussion_supervisor
+'Do you feel that your employer takes mental health as seriously as physical health?', -- mh_eq_ph_employer
+'Have you heard of or observed negative consequences for co-workers who have been open about mental health issues in your 
+workplace?', -- mh_conseq_coworkers
+'Do you have medical coverage (private insurance or state-provided) which includes treatment of  mental health
+issues?', -- mh_coverage_flag2
+'Do you know local or online resources to seek help for a mental health disorder?', -- mh_online_res_flag
+'If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to clients or business 
+contacts?', -- mh_diagnosed&reveal_clients_flag
+'If you have revealed a mental health issue to a client or business contact, do you believe this has impacted you 
+negatively?', -- mh_diagnosed&reveal_clients_impact
+'If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers or 
+employees?', -- mh_diagnosed&reveal_cowork_flag
+'If you have revealed a mental health issue to a coworker or employee, do you believe this has impacted you 
+negatively?', -- mh_cowork_reveal_neg_impact
+'Do you believe your productivity is ever affected by a mental health issue?', -- mh_prod_impact
+'If yes, what percentage of your work time (time performing primary or secondary job functions) is affected by a mental health
+issue?',  -- mh_prod_impact_perc
+'Do you have previous employers?', -- prev_employers_flag
+'Have your previous employers provided mental health benefits?', -- prev_mh_benefits
+'Were you aware of the options for mental health care provided by your previous employers?', -- prev_mh_benefits_awareness
+'Did your previous employers ever formally discuss mental health (as part of a wellness campaign or other official
+communication)?', -- prev_mh_discussion
+'Did your previous employers provide resources to learn more about mental health issues and how to seek help?', -- prev_mh_resources
+'Was your anonymity protected if you chose to take advantage of mental health or substance abuse treatment resources with previous employers?', -- prev_mh_anonimity
+'Do you think that discussing a mental health disorder with previous employers would have negative
+consequences?', -- prev_mh_discuss_neg_conseq
+'Do you think that discussing a physical health issue with previous employers would have negative 
+consequences?', -- prev_ph_discuss_neg_conseq
+'Would you have been willing to discuss a mental health issue with your previous co-workers?', -- prev_mh_discussion_cowork
+'Would you have been willing to discuss a mental health issue with your direct supervisor(s)?', -- prev_mh_discussion_supervisor
+'Did you feel that your previous employers took mental health as seriously as physical health?', -- prev_mh_importance_employer
+'Did you hear of or observe negative consequences for co-workers with mental health issues in your previous
+workplaces?', -- prev_mh_conseq_coworkers
+'Would you be willing to bring up a physical health issue with a potential employer in an interview?', -- future_ph_specification
+'Why or why not?', -- why/why_not
+'Would you bring up a mental health issue with a potential employer in an interview?', -- future_mh_specification
+'Why or why not?.1', -- why/why_not2
+'Do you feel that being identified as a person with a mental health issue would hurt your career?', -- mh_hurt_on_career
+'Do you think that team members/co-workers would view you more negatively if they knew you suffered from a mental health 
+issue?', -- mh_neg_view_cowork
+'How willing would you be to share with friends and family that you have a mental illness?', -- mh_sharing_friends/fam_flag
+'Have you observed or experienced an unsupportive or badly handled response to a mental health issue in your current or previous workplace?', -- mh_bad_response_workplace
+'Have your observations of how another individual who discussed a mental health disorder made you less likely to reveal a mental health issue yourself in your current workplace?', -- mh_for_others_bad_response_workplace
+'Do you have a family history of mental illness?', -- mh_family_hist
+'Have you had a mental health disorder in the past?', -- mh_disorder_past
+'Do you currently have a mental health disorder?', -- mh_disorder_current
+'If yes, what condition(s) have you been diagnosed with?', -- yes:what_diagnosis?
+'If maybe, what condition(s) do you believe you have?', -- maybe:whats_your_diag
+'Have you been diagnosed with a mental health condition by a medical professional?', -- mh_diagnos_proffesional
+'If so, what condition(s) were you diagnosed with?', -- yes:condition_diagnosed
+'Have you ever sought treatment for a mental health issue from a mental health professional?', -- mh_sought_proffes_treatm
+'If you have a mental health issue, do you feel that it interferes with your work when being treated
+effectively?', -- mh_eff_treat_impact_on_work
+'If you have a mental health issue, do you feel that it interferes with your work when NOT being treated 
+effectively?', -- mh_not_eff_treat_impact_on_work
+'What is your age?',  -- age -- done
+'What is your gender?', -- sex -- done
+'What country do you live in?', -- country_live
+'What US state or territory do you live in?', -- live_us_teritory
+'What country do you work in?', -- country_work
+'What US state or territory do you work in?', -- work_us_teritory
+'Which of the following best describes your work position?', -- work_position
+'Do you work remotely?' -- remote_flag
